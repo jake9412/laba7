@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-btn{
+    display: none;
+}
+.menu{
+    display: none;
+}
+.header{
+    display: flex;
+    width: 1920px;
+}
+ .container{
+     width: 100%;
+     height: 100%;
+     background-image: url(img/a2.jpg);
+     display: flex;
+     
+ }
+ .logo{
+    max-width: 310px;
+    max-height: 286px;
+    margin: 25px 0px 0px 800px;
+
+ }
+ .navh{
+    width: 420px;
+    height: 70px;
+    display: flex;
+    margin: 0 300px;
+    }
+
+
+.up_button1, .up_button2{
+    font-family: 'Playfair Display', serif;
+    width: 200px;
+    height: 60px;
+    background: rgb(128, 133, 124);
+    mix-blend-mode: normal;
+    border-radius: 76px;
+    cursor: pointer;
+    border-width: 0px;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 230px auto;
+    }
+    button:active{
+        background-color: aliceblue;
+    }
+.up_button2{
+        margin-left: 20px;
+}
+.up_button1:hover{
+    background: #6C9388;
+}
+.up_button2:hover{
+    background: #6C9388;
+}
+.ab_us{
+    
+    padding-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+    height: 364px ;
+    margin: 0 auto;
+}
+.ab_pic{
+    background: linear-gradient(10.93deg, rgba(0, 0, 0, 0.7) -1.79%, rgba(0, 0, 0, 0.7) -1.79%, rgba(0, 0, 0, 0) 40.1%), url(istockphoto-1204067725-170667a.jpg);
+    border-radius: 20px;
+}
+
+.ab_h{
+    width: 435px;
+    height: 204px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 45px;
+    color: #000000;
+    margin-top: 38px;
+    
+}
+.ab_p{
+    width: 459px;
+    height: 99px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000;
+}
+.sec{
+    margin-top: 170px;
+    width: 1920px;
+    height: 183px;
+    background-image: url(img/a1.jpg);
+    margin-bottom: 170px;
+}
+.tov{
+    display:grid;
+    grid-template-columns: 33% 34% 33%;
+    
+    }
+    
+
+.tov1_main, .tov2_main, .tov3_main{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 180px;
+    
+    
+}
+.tov2_main{
+    margin-left: 240px;
+}
+.tov1_h, .tov2_h, .tov3_h{
+    width: 375px;
+    height: 90px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: -50px;
+}
+.tov1_pic, .tov2_pic, .tov3_pic{
+    width: 264px;
+    height: 264px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.tov2_pic{
+    margin-left: 7px;
+}
+.tov1_p, .tov2_p, .tov3_p{
+    width: 229px;
+    height: 283px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-left: 20px;
+
+}
+hr{
+width: 1154px;
+height: 0px;
+border: 1px solid #000000;
+
+margin: 170px auto;
+}
+footer{
+    margin-top: 170;
+    display: flex;
+    width: 1569px;
+    height: 438px;
+    background: #6C9388;
+   
+    padding: 40px 60px 0px 290px;
+}
+
+.f1, .f2, .f3, .f4, .f5{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 45px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0px 20px 0px 40px;
+    
+    }
+    .f1{
+        width: 233px;
+        height: 45px;
+    } 
+    .f2{
+    width: 292px;
+    height: 45px;
+    }
+    .f3{
+    width: 208px;
+    height: 30px;
+}
+    .f4{
+    width: 118px;
+    height: 45px;
+    }
+    .f5{
+    width: 208px;
+    height: 45px;
+    }
+    main{
+        margin: 0 auto;
+    }
+   
+
+
+
+
+
+
+    @media screen and (min-width: 1200px) and (max-width: 1500px) {
+    
+    .logo{
+        max-width: 182px;
+        max-height: 166px;
+        margin: -7px 0px 0px 650px;
+    }
+    .header{
+        width: 1440px;
+    }
+    .navh{
+        width: 380px;
+        height: 60px;
+        margin: -134px 260px;
+        display: flex;
+    }
+    .up_button1, .up_button2{
+        width: 150px;
+        height: 50px;
+        }
+    
+    
+    .ab_us{
+        width: 810px;
+        height: 260px; 
+        padding-top: 110px;
+    }
+    .ab_pic{
+        width: 392px;
+        height: 260px;
+        
+
+    }
+    .ab_t{
+        margin-left: 30px;
+    }
+    .ab_h{
+        font-size: 200%;
+        line-height: 34px;
+    }
+    .ab_p{
+        font-size: 100%;
+        margin-top: -100px;
+        line-height: 33px;
+    }
+    .sec{
+        width: 1439px;
+        height: 137px;
+        margin-top: 110px;
+        margin-bottom: 110px;
+    }
+    .tov1_main, .tov2_main, .tov3_main{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .tov1_h, .tov2_h, .tov3_h{
+    width: 220px;
+    height: 120px;
+    font-size: 200%;
+    line-height: 34px;
+    margin-bottom: -20px;
+    margin-left: 25px;
+}
+.tov2_pic{
+    margin-left: 3px;
+}
+.tov1_pic, .tov2_pic, .tov3_pic{
+    width: 230px;
+    height: 230px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.tov1_p, .tov2_p, .tov3_p{
+    width: 229px;
+    height: 283px;
+    font-size: 100%;
+    line-height: 35px;
+    margin-left: 20px;
+    line-height: 33px;
+}
+hr{
+    width: 1000px;
+    margin-top: -20px;
+}
+footer{
+    margin-top: 90px;
+    width: 1180px;
+    height: 200px;
+    padding: 40px 60px 0px 200px;
+}
+.f1, .f2, .f3, .f4, .f5{
+    font-size: 180%;
+    line-height: 34px;
+}
+}
+
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+        .logo{
+            max-width: 120px;
+            max-height: 120px;
+            margin: -7px -20px 0px 470px;
+        }
+        .header{
+            width: 1024px;
+        }
+        .navh{
+            width: 271px;
+            height: 48px;
+            margin: -160px 40px 30px 170px;
+        } 
+        .up_button1, .up_button2{
+            font-size: 13px;
+            width: 90px;
+            height: 30px;
+            margin-right: 0px;
+        }
+       
+        .ab_us{
+            width: 580px;
+            height: 186px; 
+            padding-top: 65px;
+            margin-left: 180px;
+        }
+        .ab_pic{
+            width: 280px;
+            height: 185px;
+        }
+        .ab_t{
+            margin-left: 20px;
+            
+        }
+        .ab_h{
+            font-size: 150%;
+            line-height: 26px;
+            width: 350px;
+        }
+        .ab_p{
+            font-size: 70%;
+            margin-top: -140px;
+            line-height: 19px;
+            width: 350px;
+        }
+        .sec{
+            width: 1024px;
+            height: 98px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+
+        }
+        .tov1_main, .tov2_main, .tov3_main{
+            margin-left: 50px;
+            margin-right: 90px;
+            margin-bottom: -100px;
+        }
+        
+        .tov1_h, .tov2_h, .tov3_h{
+        width: 190px;
+        height: 90px;
+        font-size: 150%;
+        line-height: 26px;
+        margin-bottom: -20px;
+        margin-left: 25px;
+        text-align: center;
+        }
+        .tov1_pic, .tov2_pic, .tov3_pic{
+            width: 180px;
+            height: 180px;
+            border-radius: 18px;
+            margin-bottom: 20px;
+            margin-left: 33px;
+        }
+        .tov1_p, .tov2_p, .tov3_p{
+            width: 190px;
+            height: 283px;
+            font-size: 70%;
+            line-height: 19px;
+            margin-left: 30px;
+            line-height: 19px;
+        }
+        hr{
+            width: 600px;
+            margin-top: -68px;
+            margin-bottom: 60px;
+           
+        }
+        footer{
+        
+            width: 804px;
+            height: 60px;
+            padding: 20px 20px 20px 200px;
+            }
+            .f1, .f2, .f3, .f4, .f5{
+                font-size: 80%;
+               
+            }
+        }
+        
+
+
+@media screen and (min-width:600px) and (max-width: 1000px) {
+   .logo{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0px -20px 0px 20px;
+    }
+    .container{
+        background-image: none;
+        background-color: #6C9388;
+        width: 768px;
+    }
+    main{
+        width: 768px;
+       margin: 0px 0px 0px -50px;
+    }
+    .header{
+        width: 768px;
+    }
+    .navh{
+        
+        display: none;
+      
+    }
+    .up_button1, .up_button2{
+       display: none;
+    }
+    .ab_us{
+        width: 520px;
+        height: 200px; 
+        padding-top: 20px;
+        margin-left: 170px;
+    }
+    .ab_pic{
+        width: 300px;
+        height: 190px;
+}
+.ab_t{
+    margin-left: 0px;
+    margin-top: -25px;
+    
+}
+.ab_h{
+    font-size: 110%;
+    line-height: 19px;
+    width: 200px;
+}
+.ab_p{
+    font-size: 85%;
+    margin-top: -150px;
+    line-height: 19px;
+    width: 200px;
+}
+  .sec{
+      display: none;
+  }
+hr{
+    width: 500px;
+    margin-top: -150px;
+    margin-left: 190px;
+}
+.tov{
+width: 760px;
+}
+.tov1_main, .tov2_main, .tov3_main{
+    margin-top: 40px;
+    margin-left:60px;
+}
+
+.tov1_h, .tov2_h, .tov3_h{
+width: 120px;
+height: 80px;
+font-size: 110%;
+line-height: 20px;
+margin-bottom: -20px;
+margin-left: 65px;
+text-align: center;
+}
+.tov1_pic, .tov2_pic, .tov3_pic{
+    width: 180px;
+    height: 180px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    margin-left: 33px;
+}
+.tov1_p, .tov2_p, .tov3_p{
+    width: 190px;
+    height: 283px;
+    font-size: 85%;
+    line-height: 19px;
+    margin-left: 30px;
+    line-height: 19px;
+}
+footer{
+        
+    width: 648px;
+    height: 60px;
+    margin-top: -120px;
+    padding: 20px 20px 20px 100px;
+    }
+    .f1, .f2, .f3, .f4, .f5{
+        font-size: 60%;
+       
+    }
+}
+
+
+
+
+
+@media screen and (min-width:200px) and (max-width:600px) {
+    .up_button1, .up_button2{
+        display: none;
+     }
+     .container{
+         width: 425px;
+         background-image: none;
+        background-color: #6C9388;
+       
+     }
+     .logo{
+        max-width: 80px;
+        max-height: 80px;
+        margin: 3px 0px 0px 20px;
+     }
+     .navh{
+         display: none;
+     }
+     .ab_us{
+        width: 200px;
+        height: 200px; 
+        padding-top: 90px;
+        margin-left: -10px;
+        margin-bottom: 50px;
+    }
+    .ab_pic{
+        width: 200px;
+        height: 130px;
+        transform: rotate(270deg);
+}
+.ab_t{
+    margin-left: 5px;
+    margin-top: -55px;
+    
+}
+.ab_h{
+    font-size: 110%;
+    line-height: 19px;
+    width: 200px;
+}
+.ab_p{
+    font-size: 85%;
+    margin-top: -150px;
+    line-height: 19px;
+    width: 200px;
+}
+.sec{
+    display: none;
+}
+.tov{
+    display: grid;
+    grid-template-columns: 300px;
+}
+.tov1_main, .tov2_main, .tov3_main{
+    margin-left: 80px;
+    margin-bottom: -130px;
+}
+
+.tov1_h, .tov2_h, .tov3_h{
+    font-size: 110%;
+    line-height: 19px;
+    margin-bottom: -50px;
+}
+.tov1_pic, .tov2_pic, .tov3_pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 18px;
+    margin-left: 37px;
+}
+.tov1_p, .tov2_p, .tov3_p{
+font-size: 85%;
+line-height: 19px;
+}
+hr{
+    margin-top: -20px;
+    width: 200px;
+}
+footer{
+width: 294px;
+display: grid;
+grid-template-columns: 140px;
+padding: 0px 0px 0px 130px;
+text-align: center;
+height: 270px;
+}
+.f1, .f2, .f3, .f4, .f5{
+    font-size: 70%;
+   
+}
+
+}
